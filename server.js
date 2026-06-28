@@ -4,7 +4,7 @@ const port = process.env.PORT || 9000;
 
 const peerServer = PeerServer({
   port: port,
-  path: '/',
+  path: '/peerjs',
   allow_discovery: true
 });
 
