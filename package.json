@@ -2,10 +2,13 @@
   "name": "peerjs-server",
   "version": "1.0.0",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "peer": "^1.0.2"
+    "peer": "1.0.2"
   }
 }
